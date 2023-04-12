@@ -29,9 +29,7 @@ html, body{
     /* overflow: hidden; */
     font-family: 'Futura LT Paneuropean';
     font-size: 15px;
-
- 
-   
+    box-sizing: border-box; 
 }
 
 /* header */
@@ -54,7 +52,9 @@ html, body{
     height: 10%;
     justify-content: flex-end;
 }
-
+.salon-image_title{
+  width: 120%;
+}
 
 
 /* Pour centrer tous les elements *** unitile */
@@ -603,7 +603,7 @@ section {
   }
   
   .section-title h2 {
-    font-size: 14px;
+    font-size: 225%;
     font-weight: 500;
     padding: 0;
     line-height: 1px;
@@ -612,6 +612,7 @@ section {
     text-transform: uppercase;
     color: #aaaaaa;
     font-family: "Poppins", sans-serif;
+    font-weight: bold;
   }
   
   .section-title h2::after {
