@@ -81,6 +81,7 @@ body {
 
 .btn-1 {
     border-left: 10px solid #fff;
+    margin-top: 15px;
 
 }
 
@@ -354,12 +355,14 @@ main {
     align-items: flex-end !important;
     position: relative !important;
     padding: 20px 30px !important;
+   
   
 }
 .box_on-page
  {  width: 60%;
-    height: 55%;
+    height: 75%;
     position: relative;
+  
     /* padding-bottom: 20px; */
 }
 .box_on-page::before{
@@ -1678,3 +1681,137 @@ footer {
    }
     }
     
+   /*     commentaire supplementaire */ 
+@media screen and (max-width:765px) {
+    .card_skills-company {
+        width: 100% !important;
+    }
+
+   
+
+    .card-actu {
+        width: 90% !important;
+        margin: 0 auto;
+        height: 260px;
+    }
+    footer {
+        display: flex !important;
+        width: 100% !important;
+        background-color: #0b1751 !important;
+        height: 31vh !important;
+        font-size: .8rem !important;
+        padding: 5px 0 !important;
+    }
+    .box_experiences {
+        width: 100% !important;
+
+    }
+
+    .box_left {
+
+        width: 80% !important;
+
+    }
+    .bdroite_contenu_box2{
+        margin: 20px auto !important;
+        padding: 0 0 30px 0 !important;
+    }
+    .know-more{
+       margin-bottom: -70px;
+    
+    }
+    .bdroite_contenu_box{
+       
+        padding-bottom: 15px;  
+    }
+    .bdroite_contenu_box3{
+       height: 95%; 
+      
+    }
+  .bdroite_contenu_box4{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    
+  }
+  footer{
+ 
+    margin-top: -20px;
+    padding-bottom: 150px;
+  }
+
+    .card_skills-company{
+        height: 45%;
+    }
+    .know-more2 {
+       
+        visibility: hidden;
+    }
+}
+
+/* reeal */ 
+@media screen and  (max-width: 1476px) {
+    .box_on-page{
+
+    }
+    .big_text{
+        font-size: 3rem;
+       
+        margin-bottom: 15px;
+    }
+    .page_texts{
+        font-size: 20px;
+       
+        margin-bottom: 15px;
+    }
+}
+@media screen and  (max-width: 1279px) {
+    .box_on-page{
+        width: 550px;
+      
+    }
+    .big_text{
+        font-size: 3rem;
+        
+        margin-bottom: 15px;
+    }
+    .page_texts{
+        font-size: 15px;
+       
+        margin-bottom: 15px;
+       width: 100%;
+        
+    }
+    .btn-1{
+        margin: -10px;
+    }
+}
+
+/* dernier partie */ 
+@media screen and  (max-width: 1024px) {
+   .box_on-page{
+    margin-top: -55px;
+    height: 85%;
+   }
+   /* .big_text{
+
+   } */
+}
+@media screen and  (max-width: 767px) {
+   .box_on-page{
+   
+    padding-right: 15px;
+   }
+   .big_text{
+
+   }
+   .page_texts{
+    margin-top: -18%;
+   }
+   .btn-1{
+    margin-top: -25%;
+    width: 100%;
+   }
+   /* .big_text{
+
+   } */
+}
