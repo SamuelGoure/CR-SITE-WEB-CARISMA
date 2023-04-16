@@ -489,6 +489,7 @@ color: #FFFFFF; */
     flex-direction: column;
     align-items: center;
     background-color: #fff;
+  
     
     
 }
@@ -499,6 +500,14 @@ color: #FFFFFF; */
    margin-top: 24%;
    
    margin-top: -05%;
+}
+
+.sous_logo_title{
+   
+    height: 175px;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.25rem;
 }
 
 .bdroite_contenu2 {
@@ -606,7 +615,7 @@ color: #FFFFFF; */
 }
 .s_title_presentation{
     font-size: 11px;
-   
+    font-family: 'Mukta', sans-serif;
     height: 80%;
 }
 
@@ -1828,4 +1837,14 @@ footer {
    /* .big_text{
 
    } */
+}
+@media screen and  (min-width: 1330px) {
+  .s_title_presentation{
+    font-size: .8rem;
+  }
+}
+@media screen and  (min-width: 1021px) {
+  .s_title_presentation{
+    font-size: 12px;
+  }
 }
